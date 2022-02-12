@@ -5,17 +5,44 @@ configure_dotfiles: true
 configure_terminal: true
 configure_osx: true
 
-# Set to 'true' to configure the Dock via dockutil.
-configure_dock: false
-dockitems_remove: []
-# - Launchpad
-# - TV
-# - Podcasts
-# - 'App Store'
-dockitems_persist: []
-# - name: "Sublime Text"
-#   path: "/Applications/Sublime Text.app/"
-#   pos: 5
+configure_dock: true
+dockitems_remove:
+  - 'App Store'
+  - Calendar
+  - Contacts
+  - FaceTime
+  - Keynote
+  - Launchpad
+  - Mail
+  - Maps
+  - Messages
+  - Music
+  - News
+  - Notes
+  - Numbers
+  - Photos
+  - Podcasts
+  - Safari
+  - Reminders
+  - Pages
+  - TV
+dockitems_persist:
+  - name: "Google Chrome"
+    path: "/Applications/Google Chrome.app/"
+  - name: "Slack"
+    path: "/Applications/Slack.app/"
+  - name: "Spotify"
+    path: "/Applications/Spotify.app/"
+  - name: "iTerm"
+    path: "/Applications/iTerm.app/"
+  - name: "Lens"
+    path: "/Applications/Lens.app/"
+  - name: "Beyond Compare"
+    path: "/Applications/Beyond Compare.app/"
+  - name: "Cisco AnyConnect Secure Mobility Client"
+    path: "/Applications/Cisco/Cisco AnyConnect Secure Mobility Client.app/"
+  - name: "System Preferences"
+    path: "/System/Applications/System Preferences.app/"
 
 configure_sudoers: false
 sudoers_custom_config: ''

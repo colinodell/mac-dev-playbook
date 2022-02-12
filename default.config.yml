@@ -37,56 +37,66 @@ dotfiles_files:
   - .zshrc
 
 homebrew_installed_packages:
-  # - ansible # Installed via Pip.
-  - autoconf
-  - bash-completion
-  - doxygen
-  - gettext
-  - gifsicle
+  - check-ssl
+  - coreutils
+  - curl
+  - ddev
+  - dive
   - git
-  - github/gh/gh
   - go
+  - goreleaser
   - gpg
-  - httpie
-  - iperf
-  - libevent
-  - sqlite
-  - mcrypt
+  - gradle
+  - htop
+  - jq
+  - kubernetes-cli
+  - ncdu
+  - openjdk
   - nmap
   - node
   - nvm
+  - pgcli
   - php
-  - ssh-copy-id
-  - cowsay
-  - readline
-  - openssl
+  - php@7.4
   - pv
+  - python@3.9
+  - ssh-copy-id
+  - sqlite
+  - tree
+  - watch
   - wget
-  - wrk
-  - zsh-history-substring-search
 
 homebrew_taps:
   - homebrew/core
   - homebrew/cask
+  - homebrew/cask-drivers
+  - colinodell/tap
+  - drud/ddev
+  - goreleaser/tap
 
 homebrew_cask_appdir: /Applications
 homebrew_cask_apps:
-  - chromedriver
+  - beyond-compare
   - docker
-  - dropbox
-  - firefox
+  - elgato-stream-deck
+  - flameshot
   - google-chrome
-  - handbrake
-  - licecap
-  - sequel-ace
+  - gpg-suite-no-mail
+  - iterm2
+  - jetbrains-toolbox
+  - lens
+  - maccy
+  - rectangle
+  - sensiblesidebuttons
   - slack
-  - sublime-text
-  - transmit
-  - vagrant
+  - spotify
+  - stats
+  - virtualbox
 
 # See `geerlingguy.mas` role documentation for usage instructions.
-mas_installed_apps: []
-mas_email: ""
+mas_installed_apps:
+  - { id: 937984704, name: "Amphetamine" }
+mas_email: "colinodell@gmail.com"
 mas_password: ""
 
 osx_script: "~/.osx --no-restart"

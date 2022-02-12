@@ -52,6 +52,7 @@ sudoers_custom_config: ''
 #   %admin ALL=(ALL) NOPASSWD: ALL
 
 dotfiles_repo: https://github.com/colinodell/dotfiles.git
+dotfiles_repo_version: main
 dotfiles_repo_accept_hostkey: true
 dotfiles_repo_local_destination: ~/Projects/dotfiles
 dotfiles_files:
@@ -120,11 +121,14 @@ homebrew_cask_apps:
   - stats
   - virtualbox
 
+# https://edge.elgato.com/egc/macos/sd/Stream_Deck_5.2.0.14948.pkg
+
 # See `geerlingguy.mas` role documentation for usage instructions.
 mas_installed_apps:
   - { id: 937984704, name: "Amphetamine" }
 mas_email: "colinodell@gmail.com"
 mas_password: ""
+mas_signin_dialog: true
 
 osx_script: "~/.osx --no-restart"
 

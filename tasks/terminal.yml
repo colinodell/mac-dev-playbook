@@ -12,5 +12,5 @@
   when: not oh_my_zsh.stat.exists
 
 - name: "Install oh-my-zsh"
-  shell: "/tmp/install-oh-my-zsh.sh"
+  shell: "/tmp/install-oh-my-zsh.sh --unattended"
   when: not oh_my_zsh.stat.exists

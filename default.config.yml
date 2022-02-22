@@ -106,12 +106,14 @@ homebrew_cask_appdir: /Applications
 homebrew_cask_apps:
   - beyond-compare
   - docker
+  - dropbox
   - elgato-stream-deck
   - flameshot
   - google-chrome
   - gpg-suite-no-mail
   - iterm2
   - jetbrains-toolbox
+  - joplin
   - lens
   - maccy
   - rectangle

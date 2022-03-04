@@ -3,6 +3,7 @@
 
   vars_files:
     - default.config.yml
+    - secrets.yml
 
   pre_tasks:
     - name: Include playbook configuration.
@@ -40,6 +41,9 @@
 
     - import_tasks: tasks/extra-packages.yml
       tags: ['extra-packages']
+
+    - import_tasks: tasks/vault.yml
+      tags: ['vault']
 
     - name: Run configured post-provision ansible task files.
       include_tasks: "{{ outer_item }}"

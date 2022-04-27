@@ -37,6 +37,8 @@ dockitems_persist:
     path: "/Applications/iTerm.app/"
   - name: "Lens"
     path: "/Applications/Lens.app/"
+  - name: "Altair GraphQL Client"
+    path: "/Applications/Altair GraphQL Client.app"
   - name: "Beyond Compare"
     path: "/Applications/Beyond Compare.app/"
   - name: "Cisco AnyConnect Secure Mobility Client"
@@ -89,6 +91,7 @@ homebrew_installed_packages:
   - pv
   - python@3.9
   - ssh-copy-id
+  - sshpass
   - sqlite
   - tree
   - watch
@@ -104,6 +107,7 @@ homebrew_taps:
 
 homebrew_cask_appdir: /Applications
 homebrew_cask_apps:
+  - altair-graphql-client
   - beyond-compare
   - docker
   - dropbox

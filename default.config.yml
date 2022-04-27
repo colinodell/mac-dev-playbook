@@ -104,6 +104,7 @@ homebrew_taps:
   - colinodell/tap
   - drud/ddev
   - goreleaser/tap
+  - hudochenkov/sshpass
 
 homebrew_cask_appdir: /Applications
 homebrew_cask_apps:

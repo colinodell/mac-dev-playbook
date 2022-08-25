@@ -32,3 +32,12 @@
     user_install: false
     executable: "{{ item.executable | default(omit) }}"
   loop: "{{ gem_packages }}"
+
+- name: Install Cloud SQL Auth proxy (amd64)
+  ansible.builtin.get_url:
+    url: "https://dl.google.com/cloudsql/cloud_sql_proxy.darwin.amd64"
+    dest: "/usr/local/bin/cloud_sql_proxy"
+    mode: 0755
+  become: yes
+  when: ansible_architecture == 'x86_64'
+  tags: cloud_sql_proxy

@@ -35,6 +35,8 @@ dockitems_persist:
     path: "/Applications/Spotify.app/"
   - name: "iTerm"
     path: "/Applications/iTerm.app/"
+  - name: "Warp"
+    path: "/Applications/Warp.app/"
   - name: "Lens"
     path: "/Applications/Lens.app/"
   - name: "Altair GraphQL Client"
@@ -59,11 +61,13 @@ dotfiles_repo_accept_hostkey: true
 dotfiles_repo_local_destination: ~/Projects/dotfiles
 dotfiles_files:
   - .aliases
+  - .config/starship.toml
   - .exports
   - .gitconfig
   - .gitignore
   - .osx
   - .vimrc
+  - .zsh
   - .zshrc
 
 homebrew_installed_packages:
@@ -93,6 +97,7 @@ homebrew_installed_packages:
   - ssh-copy-id
   - sshpass
   - sqlite
+  - starship
   - tree
   - watch
   - wget
@@ -101,6 +106,7 @@ homebrew_taps:
   - homebrew/core
   - homebrew/cask
   - homebrew/cask-drivers
+  - homebrew/cask-fonts
   - colinodell/tap
   - drud/ddev
   - goreleaser/tap
@@ -114,6 +120,7 @@ homebrew_cask_apps:
   - dropbox
   - elgato-stream-deck
   - flameshot
+  - font-jetbrains-mono-nerd-font
   - google-chrome
   - gpg-suite-no-mail
   - iterm2
@@ -127,6 +134,7 @@ homebrew_cask_apps:
   - spotify
   - stats
   - virtualbox
+  - warp
 
 # https://edge.elgato.com/egc/macos/sd/Stream_Deck_5.2.0.14948.pkg
 

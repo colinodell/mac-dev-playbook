@@ -43,8 +43,6 @@ dockitems_persist:
     path: "/Applications/Altair GraphQL Client.app"
   - name: "Beyond Compare"
     path: "/Applications/Beyond Compare.app/"
-  - name: "Cisco AnyConnect Secure Mobility Client"
-    path: "/Applications/Cisco/Cisco AnyConnect Secure Mobility Client.app/"
   - name: "System Preferences"
     path: "/System/Applications/System Preferences.app/"
 
@@ -91,7 +89,6 @@ homebrew_installed_packages:
   - nvm
   - pgcli
   - php
-  - php@7.4
   - pv
   - python@3.9
   - ssh-copy-id

@@ -43,7 +43,7 @@ dockitems_persist:
   - name: "Beyond Compare"
     path: "/Applications/Beyond Compare.app/"
   - name: "System Preferences"
-    path: "/System/Applications/System Preferences.app/"
+    path: "/System/Applications/System Settings.app/"
 
 configure_sudoers: false
 sudoers_custom_config: ''
@@ -130,7 +130,6 @@ homebrew_cask_apps:
   - slack
   - spotify
   - stats
-  - virtualbox
   - warp
 
 # https://edge.elgato.com/egc/macos/sd/Stream_Deck_5.2.0.14948.pkg

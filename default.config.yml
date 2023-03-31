@@ -11,6 +11,7 @@ dockitems_remove:
   - Calendar
   - Contacts
   - FaceTime
+  - Freeform
   - Keynote
   - Launchpad
   - Mail
@@ -39,8 +40,6 @@ dockitems_persist:
     path: "/Applications/Warp.app/"
   - name: "Lens"
     path: "/Applications/Lens.app/"
-  - name: "Altair GraphQL Client"
-    path: "/Applications/Altair GraphQL Client.app"
   - name: "Beyond Compare"
     path: "/Applications/Beyond Compare.app/"
   - name: "System Preferences"

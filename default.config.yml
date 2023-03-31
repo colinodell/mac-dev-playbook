@@ -74,6 +74,7 @@ homebrew_installed_packages:
   - ddev
   - dive
   - git
+  - github/gh/gh
   - go
   - goreleaser
   - gpg

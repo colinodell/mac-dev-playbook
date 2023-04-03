@@ -80,6 +80,7 @@ homebrew_installed_packages:
   - gpg
   - gradle
   - htop
+  - imagemagick
   - jq
   - kubernetes-cli
   - ncdu
@@ -88,6 +89,7 @@ homebrew_installed_packages:
   - node
   - nvm
   - pgcli
+  - pkg-config
   - php
   - pv
   - python@3.9
@@ -164,6 +166,10 @@ pip_packages:
 # - name: mkdocs
 #   state: present # present/absent/latest, default: present
 #   version: "0.16.3" # default: N/A
+pecl_packages:
+  - imagick
+  - redis
+  - xdebug
 
 
 composer_home_owner: codell

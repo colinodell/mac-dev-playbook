@@ -33,6 +33,12 @@
     executable: "{{ item.executable | default(omit) }}"
   loop: "{{ gem_packages }}"
 
+- name: Install PHP PECL packages
+  community.general.pear:
+    name: "pecl/{{ item.name | default(item) }}"
+    state: "{{ item.state | default('present') }}"
+  loop: "{{ pecl_packages }}"
+
 - name: Install Cloud SQL Auth proxy (amd64)
   ansible.builtin.get_url:
     url: "https://dl.google.com/cloudsql/cloud_sql_proxy.darwin.amd64"

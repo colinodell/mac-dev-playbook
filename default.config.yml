@@ -166,5 +166,8 @@ pip_packages:
 #   version: "0.16.3" # default: N/A
 
 
+composer_home_owner: codell
+composer_home_group: staff
+
 # Glob pattern to ansible task files to run after all other tasks are finished.
 post_provision_tasks: []

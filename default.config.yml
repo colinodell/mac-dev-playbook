@@ -127,6 +127,8 @@ homebrew_cask_apps:
   - joplin
   - lens
   - maccy
+  - ngrok
+  - obs
   - rectangle
   - sensiblesidebuttons
   - slack

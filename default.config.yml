@@ -100,6 +100,7 @@ homebrew_installed_packages:
   - tree
   - watch
   - wget
+  - yq
 
 homebrew_taps:
   - homebrew/core

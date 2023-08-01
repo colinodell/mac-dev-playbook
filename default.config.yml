@@ -107,7 +107,6 @@ homebrew_installed_packages:
 homebrew_taps:
   - homebrew/core
   - homebrew/cask
-  - homebrew/cask-drivers
   - homebrew/cask-fonts
   - colinodell/tap
   - drud/ddev

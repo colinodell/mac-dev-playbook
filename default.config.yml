@@ -68,6 +68,7 @@ dotfiles_files:
   - .zshrc
 
 homebrew_installed_packages:
+  - awscli
   - check-ssl
   - coreutils
   - curl

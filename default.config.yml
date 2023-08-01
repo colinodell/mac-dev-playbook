@@ -86,8 +86,6 @@ homebrew_installed_packages:
   - ncdu
   - openjdk
   - nmap
-  - node
-  - nvm
   - pgcli
   - pkg-config
   - php
@@ -98,6 +96,7 @@ homebrew_installed_packages:
   - sqlite
   - starship
   - tree
+  - volta
   - watch
   - wget
   - yq

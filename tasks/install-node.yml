@@ -1,0 +1,16 @@
+---
+
+- name: Check whether volta is already installed
+  stat:
+    path: /opt/homebrew/bin/volta
+  register: volta_installed
+
+- name: Check whether node is already installed at ~/.volta/bin/node
+  stat:
+    path: ~/.volta/bin/node
+  register: node_installed
+
+- name: Run "volta install node" if needed
+  command: volta install node
+  when: volta_installed.stat.exists and not node_installed.stat.exists
+

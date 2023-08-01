@@ -42,6 +42,9 @@
       when: configure_osx
       tags: ['osx']
 
+    - import_tasks: tasks/install-node.yml
+      tags: ['node', 'volta']
+
     - import_tasks: tasks/extra-packages.yml
       tags: ['extra-packages']
 

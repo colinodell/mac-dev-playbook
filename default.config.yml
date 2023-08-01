@@ -176,7 +176,7 @@ pecl_packages:
   - xdebug
 
 
-composer_home_owner: codell
+composer_home_owner: "{{ lookup('env', 'USER') }}"
 composer_home_group: staff
 
 # Glob pattern to ansible task files to run after all other tasks are finished.

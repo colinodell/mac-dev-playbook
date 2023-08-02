@@ -99,6 +99,7 @@ homebrew_installed_packages:
   - sqlite
   - starship
   - tree
+  - vault
   - volta
   - watch
   - wget
@@ -112,6 +113,7 @@ homebrew_taps:
   - drud/ddev
   - goreleaser/tap
   - hudochenkov/sshpass
+  - hashicorp/tap
 
 homebrew_cask_appdir: /Applications
 homebrew_cask_apps:

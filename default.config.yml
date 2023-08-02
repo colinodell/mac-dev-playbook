@@ -84,6 +84,7 @@ homebrew_installed_packages:
   - gradle
   - htop
   - imagemagick
+  - joemiller/taps/vault-token-helper
   - jq
   - kubernetes-cli
   - ncdu

@@ -1,0 +1,10 @@
+---
+
+- name: "Check if vault-token-helper is already enabled"
+  stat:
+    path: ~/.vault
+  register: vault_token_helper
+
+- name: "Enable vault-token-helper"
+  command: "vault-token-helper enable"
+  when: vault_token_helper.stat.exists == False

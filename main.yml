@@ -45,6 +45,9 @@
     - import_tasks: tasks/install-node.yml
       tags: ['node', 'volta']
 
+    - import_tasks: tasks/enable-vault-token-helper.yml
+      tags: ['vault']
+
     - import_tasks: tasks/extra-packages.yml
       tags: ['extra-packages']
 

@@ -93,6 +93,7 @@ homebrew_installed_packages:
   - pgcli
   - pkg-config
   - php
+  - poetry
   - pv
   - python@3.9
   - ssh-copy-id

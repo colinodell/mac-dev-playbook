@@ -82,7 +82,6 @@ homebrew_installed_packages:
   - goreleaser
   - gpg
   - gradle
-  - hashicorp/tap/terraform
   - htop
   - imagemagick
   - joemiller/taps/vault-token-helper
@@ -101,6 +100,7 @@ homebrew_installed_packages:
   - sshpass
   - sqlite
   - starship
+  - tfenv
   - tree
   - vault
   - volta

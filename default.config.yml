@@ -75,6 +75,7 @@ homebrew_installed_packages:
   - coreutils
   - curl
   - ddev
+  - derailed/k9s/k9s
   - dive
   - git
   - github/gh/gh
@@ -148,6 +149,7 @@ homebrew_cask_apps:
 # See `geerlingguy.mas` role documentation for usage instructions.
 mas_installed_apps:
   - { id: 937984704, name: "Amphetamine" }
+  - { id: 1295203466, name: "Microsoft Remote Desktop" }
 mas_email: "colinodell@gmail.com"
 mas_password: ""
 mas_signin_dialog: true
@@ -171,6 +173,7 @@ npm_packages: []
 #   version: "^2.6" # default: N/A
 pip_packages:
   - name: ansible
+  - name: ec2instanceconnectcli
   - name: passlib
 # - name: mkdocs
 #   state: present # present/absent/latest, default: present

@@ -40,8 +40,8 @@ dockitems_persist:
     path: "{{ lookup('env','HOME') }}/Applications/Chrome Apps.localized/Google Meet.app/"
   - name: "iTerm"
     path: "/Applications/iTerm.app/"
-  - name: "Lens"
-    path: "/Applications/Lens.app/"
+  - name: "OpenLens"
+    path: "/Applications/OpenLens.app/"
   - name: "Beyond Compare"
     path: "/Applications/Beyond Compare.app/"
   - name: "System Preferences"
@@ -133,10 +133,10 @@ homebrew_cask_apps:
   - iterm2
   - jetbrains-toolbox
   - joplin
-  - lens
   - maccy
   - ngrok
   - obs
+  - openlens
   - rectangle
   - sensiblesidebuttons
   - slack

@@ -125,6 +125,7 @@ homebrew_cask_apps:
   - beyond-compare
   - docker
   - dropbox
+  - elgato-camera-hub
   - elgato-stream-deck
   - flameshot
   - font-jetbrains-mono-nerd-font

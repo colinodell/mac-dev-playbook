@@ -133,7 +133,6 @@ homebrew_cask_apps:
   - gpg-suite-no-mail
   - iterm2
   - jetbrains-toolbox
-  - joplin
   - maccy
   - ngrok
   - obs
